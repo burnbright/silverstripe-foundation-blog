@@ -5,7 +5,7 @@
 			<article>
 				<h3><a href="$Link">$MenuTitle</a></h3>
 				<h6><% if Author %>By <a href="#">$Author</a><% end_if %> on August 12, 2012.</h6>
-				$Content.Summary(500)
+				$Content.Summary <a href="$Link">read more</a>
 			</article>
 			<% if not Last %><hr /><% end_if %>
 			<% end_loop %>
